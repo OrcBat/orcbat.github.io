@@ -6,7 +6,7 @@ body {
   background-repeat: repeat;
 }
 
-img {
+.logo {
   height: 30px;
   width: 30px;
 }
@@ -31,7 +31,7 @@ img {
 .description {
   left: 50%;
   position: absolute;
-  top: 900%;
+  top: 2200%;
 
   transform: translate(-50%, -55%);
   text-align: left;
@@ -57,11 +57,36 @@ img {
 
 .row {
     background-color: white;
+    border: 5px solid #DC136C;
 
 }
 
 .feature-title {
-
+    border: 5px solid #885a5a;
     font-weight: normal;
 }
 
+.feature-title2 {
+    border: 0px ;
+    font-weight: normal;
+}
+
+.cake {
+    height: 400px;
+    width: 500px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #885a5a;
+    
+}
+
+img {
+
+    height: 400px;
+    width: 500px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #885a5a;
+}
