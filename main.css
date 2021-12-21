@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-
+  
   background-image: url(Pictures/treepattern.jpg);
   background-repeat: repeat;
 }
@@ -10,11 +10,17 @@ body {
   height: 30px;
   width: 30px;
 }
+
+.nav-item {
+font-weight: bold;
+    
+}
 .navbar {
   background: #885a5a;
 }
 .nav-link,
 .navbar-brand {
+    scroll-behaviour:smooth;
   color: #fff;
   cursor: pointer;
 }
@@ -31,18 +37,26 @@ body {
 .description {
   left: 50%;
   position: absolute;
-  top: 2200%;
+  top: 8000%;
 
   transform: translate(-50%, -55%);
   text-align: left;
 }
 .description h1 {
-  color: #885a5a;
-
+  color: #b48383;
+  font-family: 'Mountains of Christmas', cursive;
   text-align: center;
-  font-size: 100px;
-  -webkit-text-stroke-width: 3px;
+  font-size: 120px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
+}
+
+h3 {
+    color: #b48383;
+  font-family: 'Mountains of Christmas', cursive;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
 }
 
 
@@ -64,11 +78,13 @@ body {
 .feature-title {
     border: 5px solid #885a5a;
     font-weight: normal;
+    background-color: #CAE7C1;
 }
 
 .feature-title2 {
     border: 0px ;
     font-weight: normal;
+    
 }
 
 .cake {
@@ -89,4 +105,11 @@ img {
   margin-left: auto;
   margin-right: auto;
   border: 5px solid #885a5a;
+}
+
+.recipe-title {
+    font-weight: bold;
+    text-align: center;
+    
+
 }
