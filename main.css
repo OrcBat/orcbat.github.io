@@ -17,10 +17,11 @@ font-weight: bold;
 }
 .navbar {
   background: #885a5a;
+  
 }
 .nav-link,
 .navbar-brand {
-    scroll-behaviour:smooth;
+    
   color: #fff;
   cursor: pointer;
 }
@@ -37,7 +38,7 @@ font-weight: bold;
 .description {
   left: 50%;
   position: absolute;
-  top: 8000%;
+  top: 8300%;
 
   transform: translate(-50%, -55%);
   text-align: left;
@@ -59,15 +60,13 @@ h3 {
 
 }
 
+.impressum {
 
-.page-footer {
-    background-color: #222;
-    color: #ccc;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left:20px;
+    color: #000;
+    background-color:#CAE7C1;
+    border: 5px solid #885a5a;
 }
+
 
 .row {
     background-color: white;
