@@ -1,0 +1,67 @@
+body {
+  padding: 0;
+  margin: 0;
+
+  background-image: url(Pictures/treepattern.jpg);
+  background-repeat: repeat;
+}
+
+img {
+  height: 30px;
+  width: 30px;
+}
+.navbar {
+  background: #885a5a;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 10em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.description {
+  left: 50%;
+  position: absolute;
+  top: 900%;
+
+  transform: translate(-50%, -55%);
+  text-align: left;
+}
+.description h1 {
+  color: #885a5a;
+
+  text-align: center;
+  font-size: 100px;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+
+
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left:20px;
+}
+
+.row {
+    background-color: white;
+
+}
+
+.feature-title {
+
+    font-weight: normal;
+}
+
