@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  
+
   background-image: url(Pictures/treepattern.jpg);
   background-repeat: repeat;
 }
@@ -12,16 +12,13 @@ body {
 }
 
 .nav-item {
-font-weight: bold;
-    
+  font-weight: bold;
 }
 .navbar {
   background: #885a5a;
-  
 }
 .nav-link,
 .navbar-brand {
-    
   color: #fff;
   cursor: pointer;
 }
@@ -45,7 +42,7 @@ font-weight: bold;
 }
 .description h1 {
   color: #b48383;
-  font-family: 'Mountains of Christmas', cursive;
+  font-family: "Mountains of Christmas", cursive;
   text-align: center;
   font-size: 120px;
   -webkit-text-stroke-width: 2px;
@@ -53,62 +50,53 @@ font-weight: bold;
 }
 
 h3 {
-    color: #b48383;
-  font-family: 'Mountains of Christmas', cursive;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-
+  color: #b48383;
+  font-family: "Mountains of Christmas", cursive;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .impressum {
-
-    color: #000;
-    background-color:#CAE7C1;
-    border: 5px solid #885a5a;
+  color: #000;
+  background-color: #cae7c1;
+  border: 5px solid #885a5a;
 }
 
-
 .row {
-    background-color: white;
-    border: 5px solid #DC136C;
-
+  background-color: white;
+  border: 5px solid #dc136c;
 }
 
 .feature-title {
-    border: 5px solid #885a5a;
-    font-weight: normal;
-    background-color: #CAE7C1;
+  border: 5px solid #885a5a;
+  font-weight: normal;
+  background-color: #cae7c1;
 }
 
 .feature-title2 {
-    border: 0px ;
-    font-weight: normal;
-    
+  border: 0px;
+  font-weight: normal;
 }
 
 .cake {
-    height: 400px;
-    width: 500px;
-    display: block;
+  height: 400px;
+  width: 500px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   border: 5px solid #885a5a;
-    
 }
 
 img {
-
-    height: 400px;
-    width: 500px;
-    display: block;
+  height: 400px;
+  width: 500px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   border: 5px solid #885a5a;
 }
 
 .recipe-title {
-    font-weight: bold;
-    text-align: center;
-    
-
+  font-weight: bold;
+  text-align: center;
 }
